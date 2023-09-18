@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css'
 import Hero from './Components/Hero';
 import Header from './Components/Header';
 import About from './Components/About';
@@ -8,7 +9,7 @@ import Technologies from './Components/Technologies';
 
 function App() {
   return (
-    <div className='bg-[#140339] h-full text-white'>
+    <div className='bg-[#140339] h-full text-white font-[$url]'>
       <Header/>
       <div className="p-[2rem]"><Hero/>
       <About/>
